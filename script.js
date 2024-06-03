@@ -22,7 +22,7 @@ window.onload = function () {
         body.style.backgroundImage = 'linear-gradient(180deg, #060c15 0%, #172443 100%)';
         body.style.color = '#d3d3d3';
         gradient.setAttribute('src', '/images/dark-bg.png');
-        logo.setAttribute('src', 'images/logo-light.png');
+        logo.setAttribute('src', '/images/logo-light.png');
         headline.innerHTML = 'Dark';
         textDay.style.color = '#d3d3d34d';
         textNight.style.color = '#d3d3d3';
@@ -33,10 +33,10 @@ window.onload = function () {
         body.style.backgroundImage = 'linear-gradient(180deg, #cbd3f1 0%, #ffffff 100%)';
         body.style.color = '#262626';
         gradient.setAttribute('src', '/images/light-bg.png');
-        logo.setAttribute('src', 'images/logo-dark.png');
+        logo.setAttribute('src', '/images/logo-dark.png');
         headline.innerHTML = 'Light';
         textDay.style.color = '#262626';
         textNight.style.color = '#262626';
-        portrait.style.filter = 'grayscale(0) brightness(1)';
+        portrait.style.filter = 'unset';
     }
 };
