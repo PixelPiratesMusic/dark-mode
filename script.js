@@ -36,7 +36,7 @@ window.onload = function () {
         logo.setAttribute('src', '/images/logo-dark.png');
         headline.innerHTML = 'Light';
         textDay.style.color = '#262626';
-        textNight.style.color = '#262626';
+        textNight.style.color = '#2626264d';
         portrait.style.filter = 'unset';
     }
 };
