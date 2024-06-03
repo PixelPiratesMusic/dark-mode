@@ -21,7 +21,7 @@ window.onload = function () {
     function goDark(){
         body.style.backgroundImage = 'linear-gradient(180deg, #060c15 0%, #172443 100%)';
         body.style.color = '#d3d3d3';
-        gradient.src = 'images/dark-bg.png'
+        gradient.setAttribute('src', 'images/dark-bg.png');
         logo.src = 'images/logo-light.png';
         headline.innerHTML = 'Dark';
         textDay.style.color = '#d3d3d34d';
@@ -32,7 +32,7 @@ window.onload = function () {
     function goLight() {
         body.style.backgroundImage = 'linear-gradient(180deg, #cbd3f1 0%, #ffffff 100%)';
         body.style.color = '#262626';
-        gradient.src = 'images/light-bg.png'
+        gradient.setAttribute('src', 'images/light-bg.png');
         logo.src = 'images/logo-dark.png';
         headline.innerHTML = 'Light';
         textDay.style.color = '#262626';
