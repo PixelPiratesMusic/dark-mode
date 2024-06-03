@@ -23,7 +23,7 @@ window.onload = function () {
         body.style.color = '#d3d3d3';
         gradient.setAttribute('src', '/images/dark-bg.png');
         logo.setAttribute('src', '/images/logo-light.png');
-        headline.innerHTML = 'Dark';
+        headline.innerText = 'Dark';
         textDay.style.color = '#d3d3d34d';
         textNight.style.color = '#d3d3d3';
         portrait.style.filter = 'grayscale(0.3) brightness(0.5)';
@@ -34,7 +34,7 @@ window.onload = function () {
         body.style.color = '#262626';
         gradient.setAttribute('src', '/images/light-bg.png');
         logo.setAttribute('src', '/images/logo-dark.png');
-        headline.innerHTML = 'Light';
+        headline.innerText = 'Light';
         textDay.style.color = '#262626';
         textNight.style.color = '#2626264d';
         portrait.style.filter = 'unset';
